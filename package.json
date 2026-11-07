@@ -1,0 +1,36 @@
+{
+  "name": "puzzle-rule-engines",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Engine-independent tile-link and match-3 rules, generation, replay and local save adapters",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "docs",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.tests.json",
+    "test": "tsc -p tsconfig.tests.json && node --test .test-dist/tests/link/*.test.js .test-dist/tests/match3/*.test.js",
+    "verify": "npm run build && npm run typecheck && npm test",
+    "test:catalog": "npm run build && node tools/verify-catalog.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JM-MiaoStudio/puzzle-rule-engines.git"
+  }
+}

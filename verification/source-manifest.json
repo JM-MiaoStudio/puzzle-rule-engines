@@ -1,0 +1,77 @@
+{
+  "packageVersion": "0.1.0",
+  "rules": {
+    "link": "link.2026-11-04.v4",
+    "match3": "2026-11-05.v4"
+  },
+  "files": [
+    {
+      "file": "src/index.ts",
+      "sha256": "f875e03c1cd376476225d3993c1c230c3151bf881b7eac908cc693f06c2a9e06"
+    },
+    {
+      "file": "src/link/index.ts",
+      "sha256": "1aea5123719d3f1aee0306e8ad59a962f8e95d9c7ab93130fbabf3aa3483788b"
+    },
+    {
+      "file": "src/link/LinkBoard.ts",
+      "sha256": "0ac1d2430445bdb51ca07f0beaa6757947e24447f6951c17ac99e840d470c394"
+    },
+    {
+      "file": "src/link/LinkLevels.ts",
+      "sha256": "904c2acb78ed341966ba4b13b5084652c6c67c19a340623a38df6f65513061b4"
+    },
+    {
+      "file": "src/link/LinkPath.ts",
+      "sha256": "8d63c4b6f81e5c65a83c999d7a002bababb757a8eefc2c063c2647c410e06907"
+    },
+    {
+      "file": "src/link/LinkSession.ts",
+      "sha256": "428321c6952d48af76ee06ce5c9f695ae19a52f6ad59c777e644e95ad33fbe1b"
+    },
+    {
+      "file": "src/link/LinkStorage.ts",
+      "sha256": "f97db747e89ebd1f906256edb56384ca73fcbcedd70570e1b953e980f831c9f5"
+    },
+    {
+      "file": "src/match3/Campaign.ts",
+      "sha256": "b0ab3917a5630fde1e10d80c8937912afdd641e154bf0685e59fc2961c07c1e8"
+    },
+    {
+      "file": "src/match3/index.ts",
+      "sha256": "17b9e5b17ac3c308101cc890dbcea05644f9f45adffad444c2e24d76dc7dbf40"
+    },
+    {
+      "file": "src/match3/Levels.ts",
+      "sha256": "301a32e59cb9d4fe57679e13d37a6cfdd746cc57db094fe5214d3c17e92298e4"
+    },
+    {
+      "file": "src/match3/LevelSession.ts",
+      "sha256": "8ea319bd4d10fb8bb703f9200cb97fd32545941a40e632713d1e709184428941"
+    },
+    {
+      "file": "src/match3/Match3.ts",
+      "sha256": "91506424d227c6b1b4dddf94aa9f4c0c72db07332e33ee2a294b466f30898ff9"
+    },
+    {
+      "file": "src/match3/Match3Catalog.ts",
+      "sha256": "7ec661fc0108299be63e608c551dfd1bc2aadcb14a6082cc3bb842a2b34836f0"
+    },
+    {
+      "file": "src/match3/Match3Evaluation.ts",
+      "sha256": "13605aa5a8a7ea6aee177d0924a9b6b760d6e0a34dd73cccaaab23bf0bc5cbc6"
+    },
+    {
+      "file": "src/match3/Match3Quality.ts",
+      "sha256": "eae15157e3eee16c8b0b7e55ab4442232d12c9dc8dd3bcc2be47a44dfd207186"
+    },
+    {
+      "file": "src/match3/Match3QualityCatalog.ts",
+      "sha256": "bc2c2f3b645fa622843c2313d13db4e6186d13f33e094485ca5555147b4211b2"
+    },
+    {
+      "file": "src/match3/RoundSave.ts",
+      "sha256": "4d915f14139f34d536b5facfeeead7c41c65b6aee14287c83fc013463f82cebe"
+    }
+  ]
+}
